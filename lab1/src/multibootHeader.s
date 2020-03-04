@@ -7,8 +7,8 @@
         .long   -(0x1BADB002 + 0);
 .globl start			/*声明全局变量start*/
 
-#output hello word,PB18051098xubihan by vga
-#every output 2 characters ,the address +4
+/*output hello word,PB18051098xubihan by vga*/
+/*every output 2 characters ,the address +4*/
 /*根据vga代码要求将所要输出字符通过mov移到vga显存中*/
 start:		/*确定代码入口*/
 .text.multiboot_entry:
