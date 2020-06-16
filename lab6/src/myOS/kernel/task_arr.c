@@ -66,7 +66,6 @@ void tick_hook_arr(void){
         arrNode *tmp = (arrNode*)dLinkListFirstNode(&arrList);
         while(tmp->arrTime + arrTimeBase <= getTick() ){
             dLinkDeleteFifo(&arrList);
-
             tskStart(tmp->theTCB);
 
             if (dLinkListIsEmpty(&arrList)) break;
