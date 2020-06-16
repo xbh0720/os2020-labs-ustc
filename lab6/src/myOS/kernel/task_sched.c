@@ -48,7 +48,7 @@ void getSysSchedulerPara(unsigned int who, unsigned int *para){
 }
 
 void setSysSchedulerPara(unsigned int who, unsigned int para){
-//本函数需要实现！！！
+//本函数需要实现！！
 //和上面的get函数是对应的，设置两个参数
 }
 
