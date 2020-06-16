@@ -44,7 +44,7 @@ void initTskPara(tskPara *buffer){
 }
 
 void setTskPara(unsigned int option, unsigned int value, tskPara *buffer){
-    //本函数需要实现！！！
+    //
     //设置task的设计调度的四个参数
     //option控制buffer的哪个参数要被赋值，value是具体的数值
     switch(option){
